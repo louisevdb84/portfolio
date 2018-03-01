@@ -9,10 +9,10 @@ const Navbar = () => {
   
     return (
         <div>        
-        <nav className="navbar navbar-expand-lg navbar-dark">
+        <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container"> 
-                <div className="" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">    
+                <div>
+                <ul className="navbar-nav">    
                 
                     <li className="nav-item">                                
                         <UISrefActive className="active"><UISref to="home"><a><img src={image} width="40px" alt = "Louise"/></a></UISref></UISrefActive> 
