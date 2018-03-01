@@ -116,4 +116,11 @@ cards * {
     margin: 5px 5px 0px 5px;
     text-align: right;
   }
+
+  @media all and (max-width: 450px){
+    .container {
+      width: 100%;
+    }
+}
+
   
