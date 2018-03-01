@@ -114,3 +114,21 @@
     }
 
 }
+
+@media all and (max-height: 520px){
+    .mainHeading {
+        padding-top: 20px;
+        border-radius: 80px;
+        top : 0px;
+    }
+    
+    .picHeading{
+        height: 0px;
+    }
+
+    .profileImage{
+        top: 0px;
+        height: 0px;
+        width: 0px;
+    }
+}
