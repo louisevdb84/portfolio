@@ -117,7 +117,7 @@ cards * {
     text-align: right;
   }
 
-  @media all and (max-width: 450px){
+  @media all and (max-width: 450px) and (max-height: 450px){
     .container {
       width: 100%;
     }

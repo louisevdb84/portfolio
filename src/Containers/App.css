@@ -48,7 +48,7 @@ h1{
     
 }
 
-@media all and (max-width: 450px){
+@media all and (max-width: 450px) and (max-height: 450px){
     .about{
         margin-left: 0;
         margin-right: 0;

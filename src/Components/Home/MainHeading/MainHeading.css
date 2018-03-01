@@ -80,7 +80,7 @@
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
-@media all and (max-width: 450px){
+@media all and (max-width: 450px) and (max-height: 450px){
     
     .mainHeading h1{
         font-size: 20px;
