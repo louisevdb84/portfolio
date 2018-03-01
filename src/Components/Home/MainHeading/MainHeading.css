@@ -1,0 +1,103 @@
+
+
+.mainHeading {
+    text-align: center;    
+    color: #061539;
+    background: #7887AB;    
+    padding : 30px;
+    border-radius: 200px;
+    -webkit-box-shadow: 0 10px 6px -6px #061539;
+    -moz-box-shadow: 0 10px 6px -6px #061539;
+         box-shadow: 0 10px 6px -6px #061539;
+
+    position: fixed;
+    top: 300px;
+    right: 0;    
+    left: 0;
+    z-index: 1;
+    padding-top: 130px;
+    width:80%;
+}
+
+
+.mainHeading h1{
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+
+.mainHeading h3{
+    font-size: 2em;    
+}
+
+.mainHeading p {
+    padding-top : 20px;
+}
+
+
+.btn-primary{
+    background: #061539;
+    border-color: #061539;
+    color: #7887AB;
+    margin-top : 30px;
+}
+
+.btn-primary:hover{
+    background: #061539;
+    border-color: #061539;
+    color: #7887AB;
+}
+
+@media all and (max-width: 450px){
+    
+    .mainHeading h1{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+
+    .mainHeading h3{
+        font-size:15px;    
+    }
+    .mainHeading p {
+        font-size: 12px;
+    }
+    .btn-primary{
+        margin-top: 10px;
+    }
+    .mainHeading {
+        padding-top: 110px;
+        border-radius: 80px;
+    }
+}
+
+
+.picHeading{
+    background:url("https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05daa85f6d47b2bac2ccfcaa9c55b2b9&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+}
+
+.profileImage{
+    background: url("./louise.jpg");
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 150px;
+    background: cover;
+    background-position: center;
+    background-size: 200px;    
+    position: fixed;
+    top: 200px;
+    right: 0;    
+    left: 0;
+    z-index: 2;
+    
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
