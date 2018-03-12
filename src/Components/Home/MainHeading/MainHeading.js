@@ -16,7 +16,7 @@ const MainHeading = () => {
                 <div className="animated zoomInDown">    
                     <h1  className="animated bounce">Louise van den Berg</h1>
                     <h3  className="animated bounce">Web App Developer</h3>
-                    <p>I make heavenly UX come alive thus enabling greater wealth for U & I.</p>
+                    <p>Interested in freelancing and open source projects using React.js, Node.js, PostgreSQL, C# etc.</p>
                     <UISrefActive className="active"><UISref to={'projects'}>
                     <button className="btn btn-primary btn-large grow">View Profile</button>
                 </UISref></UISrefActive>

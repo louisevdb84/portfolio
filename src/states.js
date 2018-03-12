@@ -1,10 +1,9 @@
 import Home from './Containers/Home';
 import App from './Containers/App';
 import Projects from './Containers/Projects';
-import SideHustles from './Containers/SideHustles';
-import Presentations from './Containers/Presentations';
 import About from './Containers/About';
 import Contact from './Containers/Contact';
+import Skills from './Containers/Skills';
 
 const appState = {
   name: 'app',
@@ -32,21 +31,13 @@ const projectsState = {
   component: Projects
 };
 
-const sideHustlesState = {  
-  
+const skillsState = {
   parent: 'mainApp',
-  name: 'sideHustles',
-  url: '/side-hustles',
-  component: SideHustles
-};
+  name: 'skills',
+  url: '/skills',
+  component: Skills
+}
 
-const presentationsState = {  
-  
-  parent: 'mainApp',
-  name: 'presentations',
-  url: '/presentations',
-  component: Presentations
-};
 
 const aboutState = {
   parent: 'mainApp',
@@ -62,4 +53,4 @@ const contactState = {
   component: Contact
 }
 
-export default [contactState, aboutState, presentationsState,appState, mainAppState, projectsState, homeState, sideHustlesState];
+export default [skillsState,contactState, aboutState, appState, mainAppState, projectsState, homeState];
