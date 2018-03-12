@@ -3,7 +3,6 @@ import App from './Containers/App';
 import Projects from './Containers/Projects';
 import About from './Containers/About';
 import Contact from './Containers/Contact';
-import Skills from './Containers/Skills';
 
 const appState = {
   name: 'app',
@@ -31,12 +30,6 @@ const projectsState = {
   component: Projects
 };
 
-const skillsState = {
-  parent: 'mainApp',
-  name: 'skills',
-  url: '/skills',
-  component: Skills
-}
 
 
 const aboutState = {
@@ -53,4 +46,4 @@ const contactState = {
   component: Contact
 }
 
-export default [skillsState,contactState, aboutState, appState, mainAppState, projectsState, homeState];
+export default [contactState, aboutState, appState, mainAppState, projectsState, homeState];

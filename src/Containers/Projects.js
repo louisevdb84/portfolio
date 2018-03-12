@@ -11,9 +11,9 @@ const db = [{
         link: ""
     },
     {
-        name : "Timesheet Application",
-        description: "A web app which is also mobile friendly to log your time spent on each task",    
-        date: "15-11-2017",
+        name : "Goal Achiever",
+        description: "An app to keep track of tasks, goals, time spent on each task as well as whether a goal has been reached.  The project including a back-up of the database can be accessed on Google Drive https://drive.google.com/open?id=0B6xaRhDEOQlwR0N4enhpT1ZqMzg",    
+        date: "31-12-2017",
         tools: "ASP.NET MVC, C#, Enity Framework, MSSQL, Bootstrap",
         image: "https://images.unsplash.com/photo-1482775907821-a56ec43344fc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=34e2fb37422a3fc454b0c08cb5cd8d56&auto=format&fit=crop&w=1052&q=80",
         link: ""
@@ -28,7 +28,7 @@ const db = [{
     },
     {
         name:"Budget Application",
-        description: "Personal finance app where you can process all your expenses and balance with you bank account",
+        description: "This app serves as a budget as well as personal accounting system where you can process all your income and expenses.Developed using C#, ASP.Net MVC & MSSQL. I currently use the app to keep track of income, expenses, assets and liabilities. The project including a back-up of the database can be accessed on Google Drive:https://drive.google.com/open?id=0B6xaRhDEOQlwR0N4enhpT1ZqMzg",
         date: "31-12-2016",
         tools: "ASP.NET MVC, C#, Enity Framework, MSSQL, Bootstrap",
         image: "https://images.unsplash.com/photo-1515606378517-3451a4fa2e12?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cb830c394f6c9d7275b1662668f291dd&auto=format&fit=crop&w=1100&q=80",
@@ -46,7 +46,7 @@ const db = [{
 
 
 ];
-// <p>At first I developed using ASP.NET MVC, C# and MSSQL. From 2018 I started working with Reactjs, PostgreSQL and Nodejs</p>
+
 const App = () => {    
     return (
         <div className="animated zoomInRight cards proj">    

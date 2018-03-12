@@ -20,10 +20,10 @@ const Navbar = () => {
                     </li>            
                     <li className="nav-item">                                
                         <UISrefActive className="active"><UISref to="projects"><a className=" nav-link">Projects</a></UISref></UISrefActive> 
-                    </li>      
-                    <li className="nav-item">                                
-                        <UISrefActive className="active"><UISref to="skills"><a className=" nav-link">Skills</a></UISref></UISrefActive> 
-                    </li>            
+                    </li>                         
+                            <li className="nav-item">
+                            <UISrefActive className="active"><a href={resume} target="_blank" className="nav-link">Resume</a></UISrefActive> 
+                        </li>                  
                     <li className="nav-item">
                         <UISrefActive className="active"><UISref to="about"><a className="nav-link">About</a></UISref></UISrefActive> 
                     </li>
@@ -31,9 +31,7 @@ const Navbar = () => {
                     <li className="nav-item">
                         <UISrefActive className="active"><UISref to="contact"><a className="nav-link">Contact</a></UISref></UISrefActive> 
                     </li>  
-                    <li className="nav-item">
-                        <UISrefActive className="active"><a href={resume} target="_blank" className="nav-link">Resume</a></UISrefActive> 
-                    </li>          
+                   
                 </ul>
             </div>
         </div>
