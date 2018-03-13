@@ -3,7 +3,7 @@ import Project from './Project';
 
 const ProjectList = ({projects}) => {    
     return(
-        <div className="container dynamic-grid">
+        <div className="cardHolder dynamic-grid">
             {
                 projects.map((p, i) => {
                     return <Project 

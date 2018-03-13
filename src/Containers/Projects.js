@@ -7,7 +7,7 @@ const db = [{
         description: "This app uses MovieDb API to display movies. PostgreSQL is used to keep track of the watchlist and watched movies / TV shows",   
         date: "In Progress",
         tools: "React.js, CSS, Tachyons, MoviedbAPI, PostgreSQL",
-        image: "https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=287c28051f750029681e5d0cf0b7d722&auto=format&fit=crop&w=1189&q=80",
+        image: "https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de2f768321958e878703c793724d87fa&auto=format&fit=crop&w=1950&q=80",
         link: "https://movie-tvshow-tracker.herokuapp.com/"
     },
     // {

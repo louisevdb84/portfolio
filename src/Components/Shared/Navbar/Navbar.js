@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div>        
         <nav className="navbar navbar-expand-sm navbar-dark">
-        <div className="container"> 
+        <div className=""> 
                 <div>
                 <ul className="navbar-nav">    
                 
