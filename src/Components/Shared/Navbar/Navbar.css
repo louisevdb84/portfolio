@@ -1,7 +1,26 @@
-.navbar-dark{
+.customNavbar{
     background: #061539;
 }
 
-navbar-dark .navbar-nav .nav-link {
+.customLink {
     color: #7887AB;
+    padding-left: 15px;
+}
+
+.customLink:hover{
+    color:white;
+}
+.customNavbar .container {    
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.active {
+    color: white;
+}
+
+@media all and (max-width: 377px){
+    .customLink {
+      font-size: 14px;
+      padding-left: 10px;
+    }
 }

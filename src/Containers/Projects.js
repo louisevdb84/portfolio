@@ -38,7 +38,7 @@ const db = [{
     {
         name : "Online Portfolio",
         description: "The portfolio you are currently looking at",    
-        date: "In Progress",
+        date: "March 2018",
         tools: "React.js, UI-Router/React, CSS, React-Bootstrap, Bootstrap",
         image: "https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05daa85f6d47b2bac2ccfcaa9c55b2b9&auto=format&fit=crop&w=1050&q=80",
         link: "https://louisevdb.herokuapp.com"
