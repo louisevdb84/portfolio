@@ -43,6 +43,14 @@ const db = [{
         image: "https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05daa85f6d47b2bac2ccfcaa9c55b2b9&auto=format&fit=crop&w=1050&q=80",
         link: "https://louisevdb.herokuapp.com"
     },
+    {
+        name : "Speech to Text Journal",
+        description: "This application uses speech recognition to convert your words into a journal entry.",    
+        date: "In progress",
+        tools: "React.js, UI-Router/React, CSS, Bootstrap, Creative Tim",
+        image: "https://images.unsplash.com/photo-1414919823178-e9d9d0afd0ac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=92d1d7a9497c3ce4520d51b6dac999bd&auto=format&fit=crop&w=1146&q=80",
+        link: "https://journal-application.herokuapp.com/#/"
+    },
 
 
 ];
