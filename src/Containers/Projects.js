@@ -9,7 +9,16 @@ const db = [{
         tools: "React.js, CSS, Tachyons, MoviedbAPI, PostgreSQL",
         image: "https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de2f768321958e878703c793724d87fa&auto=format&fit=crop&w=1950&q=80",
         link: "https://movie-tvshow-tracker.herokuapp.com/"
-    },
+},
+    
+{
+    name : "Speech to Text Journal",
+    description: "This application uses speech recognition to convert your words into a journal entry.",    
+    date: "In progress",
+    tools: "React.js, UI-Router/React, CSS, Bootstrap, Creative Tim",
+    image: "https://cdn.pixabay.com/photo/2018/03/19/18/20/wood-3240764_960_720.jpg",
+    link: "https://journal-application.herokuapp.com/#/"
+},
     // {
     //     name : "Goal Achiever",
     //     description: "An app to keep track of tasks, goals, time spent on each task as well as whether a goal has been reached.  The project including a back-up of the database can be accessed on Google Drive https://drive.google.com/open?id=0B6xaRhDEOQlwR0N4enhpT1ZqMzg",    
@@ -43,14 +52,7 @@ const db = [{
         image: "https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05daa85f6d47b2bac2ccfcaa9c55b2b9&auto=format&fit=crop&w=1050&q=80",
         link: "https://louisevdb.herokuapp.com"
     },
-    {
-        name : "Speech to Text Journal",
-        description: "This application uses speech recognition to convert your words into a journal entry.",    
-        date: "In progress",
-        tools: "React.js, UI-Router/React, CSS, Bootstrap, Creative Tim",
-        image: "https://images.unsplash.com/photo-1414919823178-e9d9d0afd0ac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=92d1d7a9497c3ce4520d51b6dac999bd&auto=format&fit=crop&w=1146&q=80",
-        link: "https://journal-application.herokuapp.com/#/"
-    },
+
 
 
 ];
