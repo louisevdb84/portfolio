@@ -14,9 +14,9 @@ const db = [{
 {
     name : "Speech to Text Journal",
     description: "This application uses speech recognition to convert your words into a journal entry.",    
-    date: "In progress",
+    date: "March 2018",
     tools: "React.js, UI-Router/React, CSS, Bootstrap, Creative Tim",
-    image: "https://cdn.pixabay.com/photo/2018/03/19/18/20/wood-3240764_960_720.jpg",
+    image: "https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=53417780c9a34ffae5334a1d03b105a6&auto=format&fit=crop&w=1050&q=80",
     link: "https://journal-application.herokuapp.com/#/"
 },
     // {
