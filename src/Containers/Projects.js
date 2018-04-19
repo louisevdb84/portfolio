@@ -6,7 +6,7 @@ const db = [{
         name : "Movie and TV Show Tracker",
         description: "This app uses MovieDb API to display movies. PostgreSQL is used to keep track of the watchlist and watched movies / TV shows",   
         date: "In Progress",
-        tools: "React.js, CSS, Node.js, Express.js, UI-Router/React, Tachyons, MoviedbAPI, PostgreSQL",
+        tools: "React.js, CSS, Node.js, Express Framework, UI-Router/React, Tachyons, MoviedbAPI, PostgreSQL",
         image: "https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de2f768321958e878703c793724d87fa&auto=format&fit=crop&w=1950&q=80",
         link: "https://movie-tvshow-tracker.herokuapp.com/"
 },
@@ -15,7 +15,7 @@ const db = [{
     name : "Speech to Text Journal",
     description: "This application uses speech recognition to convert your words into a journal entry",    
     date: "March 2018",
-    tools: "React.js, UI-Router/React, CSS, Node.js, Express.js, Bootstrap, Creative Tim",
+    tools: "React.js, UI-Router/React, CSS, Node.js, Express Framework, Bootstrap, Creative Tim",
     image: "https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=53417780c9a34ffae5334a1d03b105a6&auto=format&fit=crop&w=1050&q=80",
     link: "https://journal-application.herokuapp.com/#/"
 },
