@@ -5,7 +5,7 @@ import ProjectList from '../Components/Projects/ProjectList';
 const db = [{
         name : "Movie and TV Show Tracker",
         description: "This app uses MovieDb API to display movies and tv shows. PostgreSQL is used to keep track of the watchlist and watched movies / TV shows",   
-        date: "In Progress",
+        date: "April 2018",
         tools: "React.js, CSS, Node.js, Express Framework, UI-Router/React, Tachyons, MoviedbAPI, PostgreSQL",
         image: "https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de2f768321958e878703c793724d87fa&auto=format&fit=crop&w=1950&q=80",
         link: "https://movie-tvshow-tracker.herokuapp.com/"
