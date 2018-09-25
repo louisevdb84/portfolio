@@ -17,7 +17,7 @@ const db = [{
     date: "March 2018",
     tools: "React.js, UI-Router/React, CSS, Node.js, Express Framework, Bootstrap, Creative Tim",
     image: "https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=53417780c9a34ffae5334a1d03b105a6&auto=format&fit=crop&w=1050&q=80",
-    link: "https://journal-application.herokuapp.com/#/"
+    link: "https://louisevdb84.github.io/journal-application/#/"
 },
     // {
     //     name : "Goal Achiever",
