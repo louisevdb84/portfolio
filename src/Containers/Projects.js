@@ -2,9 +2,18 @@ import React from 'react';
 import './Projects.css';
 import ProjectList from '../Components/Projects/ProjectList';
 
-const db = [{
+const db = [
+    {
+        name : "Shopping List",
+        description: "This app keeps track of your shopping list. ",   
+        date: "In Progress",
+        tools: "Angular, JWT, Node.js, Express Framework, MongoDB",
+        image: "https://images.unsplash.com/photo-1516355082092-7c054bd0536a?ixlib=rb-0.3.5&s=810144aaa21c9deb158b1249a50be591&auto=format&fit=crop&w=1350&q=80",
+        link: "https://louisevdb84.github.io/shopping-list/"
+},
+    {
         name : "Movie and TV Show Tracker",
-        description: "This app uses MovieDb API to display movies and tv shows. PostgreSQL is used to keep track of the watchlist and watched movies / TV shows",   
+        description: "This app uses MovieDb API to display movies and tv shows. It keeps track of the watchlist and watched movies / TV shows",   
         date: "April 2018",
         tools: "React.js, CSS, Node.js, Express Framework, UI-Router/React, Tachyons, MoviedbAPI, PostgreSQL",
         image: "https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de2f768321958e878703c793724d87fa&auto=format&fit=crop&w=1950&q=80",
