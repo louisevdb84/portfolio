@@ -6,7 +6,7 @@ const db = [
     {
         name : "Shopping List",
         description: "This app keeps track of your shopping list. ",   
-        date: "In Progress",
+        date: "October 2018",
         tools: "Angular, JWT, Node.js, Express Framework, MongoDB",
         image: "https://images.unsplash.com/photo-1516355082092-7c054bd0536a?ixlib=rb-0.3.5&s=810144aaa21c9deb158b1249a50be591&auto=format&fit=crop&w=1350&q=80",
         link: "https://louisevdb84.github.io/shopping-list/"
