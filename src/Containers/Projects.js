@@ -2,32 +2,39 @@ import React from 'react';
 import './Projects.css';
 import ProjectList from '../Components/Projects/ProjectList';
 
-const db = [
+const db = [{
+        name: "NASA API App",
+        description: "Very basic app using NASA API to explore React Redux",
+        date: "August 2019",
+        tools: "React.js, Redux, Redux-Thunk, Redux-logger, Tachyons",
+        image: "https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1033&q=80",
+        link: "https://louisevdb84.github.io/nasa/index.html"
+    },
     {
-        name : "Shopping List",
-        description: "This app keeps track of your shopping list. ",   
+        name: "Shopping List",
+        description: "This app keeps track of your shopping list. ",
         date: "October 2018",
         tools: "Angular, JWT, Node.js, Express Framework, MongoDB",
         image: "https://images.unsplash.com/photo-1516355082092-7c054bd0536a?ixlib=rb-0.3.5&s=810144aaa21c9deb158b1249a50be591&auto=format&fit=crop&w=1350&q=80",
         link: "https://louisevdb84.github.io/shopping-list/"
-},
+    },
     {
-        name : "Movie and TV Show Tracker",
-        description: "This app uses MovieDb API to display movies and tv shows. It keeps track of the watchlist and watched movies / TV shows",   
+        name: "Movie and TV Show Tracker",
+        description: "This app uses MovieDb API to display movies and tv shows. It keeps track of the watchlist and watched movies / TV shows",
         date: "April 2018",
         tools: "React.js, CSS, Node.js, Express Framework, UI-Router/React, Tachyons, MoviedbAPI, PostgreSQL",
         image: "https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de2f768321958e878703c793724d87fa&auto=format&fit=crop&w=1950&q=80",
         link: "https://movie-tvshow-tracker.herokuapp.com/"
-},
-    
-{
-    name : "Speech to Text Journal",
-    description: "This application uses speech recognition to convert your words into a journal entry. This app is also a coding challenge winner (Udemy Zero to Mastery)",    
-    date: "March 2018",
-    tools: "React.js, UI-Router/React, CSS, Node.js, Express Framework, Bootstrap, Creative Tim",
-    image: "https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=53417780c9a34ffae5334a1d03b105a6&auto=format&fit=crop&w=1050&q=80",
-    link: "https://louisevdb84.github.io/journal-application/#/"
-},
+    },
+
+    {
+        name: "Speech to Text Journal",
+        description: "This application uses speech recognition to convert your words into a journal entry. This app is also a coding challenge winner (Udemy Zero to Mastery)",
+        date: "March 2018",
+        tools: "React.js, UI-Router/React, CSS, Node.js, Express Framework, Bootstrap, Creative Tim",
+        image: "https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=53417780c9a34ffae5334a1d03b105a6&auto=format&fit=crop&w=1050&q=80",
+        link: "https://louisevdb84.github.io/journal-application/#/"
+    },
     // {
     //     name : "Goal Achiever",
     //     description: "An app to keep track of tasks, goals, time spent on each task as well as whether a goal has been reached.  The project including a back-up of the database can be accessed on Google Drive https://drive.google.com/open?id=0B6xaRhDEOQlwR0N4enhpT1ZqMzg",    
@@ -46,7 +53,7 @@ const db = [
     //     link: ""
     // },
     // {
-    //     name:"Previous Online Portfolio",
+    //     name: "Previous Online Portfolio",
     //     description: "My previous portfolio - not in use anymore",
     //     date: "23-02-2018",
     //     tools: "HTML, CSS, Javascript, CreateTim Template",
@@ -54,8 +61,8 @@ const db = [
     //     link: "https://louisevdb84.github.io/"
     // },
     {
-        name : "Online Portfolio",
-        description: "The portfolio you are currently looking at",    
+        name: "Online Portfolio",
+        description: "The portfolio you are currently looking at",
         date: "March 2018",
         tools: "React.js, UI-Router/React, CSS, React-Bootstrap, Bootstrap",
         image: "https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05daa85f6d47b2bac2ccfcaa9c55b2b9&auto=format&fit=crop&w=1050&q=80",
@@ -76,5 +83,3 @@ const App = () => {
 }  
 
 export default App;
-
-    
