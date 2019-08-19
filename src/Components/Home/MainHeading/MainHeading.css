@@ -1,62 +1,62 @@
-
-
 .mainHeading {
-    text-align: center;    
+    text-align: center;
     color: #061539;
-    background: #7887AB;    
-    padding : 30px;
+    background: rgb(208, 210, 216);
+    /* background: #7887AB;     */
+    padding: 30px;
     border-radius: 200px;
     -webkit-box-shadow: 0 10px 6px -6px #061539;
     -moz-box-shadow: 0 10px 6px -6px #061539;
-         box-shadow: 0 10px 6px -6px #061539;
+    box-shadow: 0 10px 6px -6px #061539;
 
     position: fixed;
     top: 300px;
-    right: 0;    
+    right: 0;
     left: 0;
     z-index: 1;
     padding-top: 130px;
-    width:80%;
+    width: 80%;
 }
 
 
-.mainHeading h1{
+.mainHeading h1 {
     font-size: 3em;
     font-weight: bold;
-    
+
 }
 
-.mainHeading h3{
-    font-size: 2em;    
+.mainHeading h3 {
+    font-size: 2em;
 }
 
 .mainHeading p {
-    padding-top : 20px;
+    padding-top: 20px;
 }
 
-.mainHeading i{
-    font-size: 1.5em;  
-    padding-right: 10px;  
-    padding-left: 10px;  
-    padding-top: 10px;  
+.mainHeading i {
+    font-size: 1.5em;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
-.mainHeading a{
-   color: initial;
+.mainHeading a {
+    color: initial;
 }
-.mainHeading a:hover{
+
+.mainHeading a:hover {
     font-size: 1.2em;
-    color:initial;    
- }
+    color: initial;
+}
 
-.btn-primary{
+.btn-primary {
     background: #061539;
     border-color: #061539;
     color: #7887AB;
-    margin-top : 30px;
+    margin-top: 30px;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background: #061539;
     border-color: #061539;
     color: #7887AB;
@@ -64,8 +64,8 @@
 
 
 
-.picHeading{
-    background:url("https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05daa85f6d47b2bac2ccfcaa9c55b2b9&auto=format&fit=crop&w=1050&q=80");
+.picHeading {
+    background: url("https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05daa85f6d47b2bac2ccfcaa9c55b2b9&auto=format&fit=crop&w=1050&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -74,7 +74,7 @@
     height: 400px;
 }
 
-.profileImage{
+.profileImage {
     background: url("./louise.jpg");
     height: 200px;
     width: 200px;
@@ -82,46 +82,55 @@
     border-radius: 150px;
     background: cover;
     background-position: center;
-    background-size: 200px;    
+    background-size: 200px;
     position: fixed;
     top: 200px;
-    right: 0;    
+    right: 0;
     left: 0;
     z-index: 2;
-    
+
 }
 
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
+.grow {
+    transition: all .2s ease-in-out;
+}
 
-@media all and (max-width: 450px), all and (max-height: 700px){
-    
-    .mainHeading h1{
+.grow:hover {
+    transform: scale(1.1);
+}
+
+@media all and (max-width: 450px),
+all and (max-height: 700px) {
+
+    .mainHeading h1 {
         font-size: 20px;
         font-weight: bold;
-        
+
     }
 
-    .mainHeading h3{
-        font-size:15px;    
+    .mainHeading h3 {
+        font-size: 15px;
     }
+
     .mainHeading p {
         font-size: 12px;
     }
-    .btn-primary{
+
+    .btn-primary {
         margin-top: 10px;
     }
+
     .mainHeading {
         padding-top: 110px;
         border-radius: 80px;
-        top : 180px;
+        top: 180px;
     }
-    
-    .picHeading{
+
+    .picHeading {
         height: 250px;
     }
 
-    .profileImage{
+    .profileImage {
         top: 100px;
         height: 180px;
         width: 180px;
@@ -129,18 +138,18 @@
 
 }
 
-@media all and (max-height: 520px){
+@media all and (max-height: 520px) {
     .mainHeading {
         padding-top: 20px;
         border-radius: 80px;
-        top : 0px;
+        top: 0px;
     }
-    
-    .picHeading{
+
+    .picHeading {
         height: 0px;
     }
 
-    .profileImage{
+    .profileImage {
         top: 0px;
         height: 0px;
         width: 0px;
