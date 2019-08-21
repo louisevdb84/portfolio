@@ -74,15 +74,14 @@ const db = [{
 ];
 
 const App = () => {
-    return ( <
-        div className = "animated zoomInRight cards proj" >
-        <
-        h1 > My Projects < /h1>             <
-        ProjectList projects = {
+    return (
+        <div className="animated zoomInRight cards proj" >
+            <h1> My Projects </h1>
+            <ProjectList projects = {
             db
         }
-        />     < /
-        div >
+            />
+        </div>
     )
 }
 
