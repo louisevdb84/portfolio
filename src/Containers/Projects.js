@@ -8,7 +8,7 @@ const db = [{
         date: "August 2019",
         tools: "React.js, Redux, Redux-Thunk, Redux-logger, Tachyons",
         image: "https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1033&q=80",
-        link: "https://louisevdb84.github.io/nasa/index.html"
+        link: "https://louisevdb84.github.io/nasa/"
     },
     {
         name: "Shopping List",
@@ -24,7 +24,7 @@ const db = [{
         date: "April 2018",
         tools: "React.js, CSS, Node.js, Express Framework, UI-Router/React, Tachyons, MoviedbAPI, PostgreSQL",
         image: "https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de2f768321958e878703c793724d87fa&auto=format&fit=crop&w=1950&q=80",
-        link: "https://movie-tvshow-tracker.herokuapp.com/"
+        link: "https://louisevdb84.github.io/movie-tvshow-tracker/"
     },
 
     {
@@ -66,20 +66,24 @@ const db = [{
         date: "March 2018",
         tools: "React.js, UI-Router/React, CSS, React-Bootstrap, Bootstrap",
         image: "https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05daa85f6d47b2bac2ccfcaa9c55b2b9&auto=format&fit=crop&w=1050&q=80",
-        link: "https://louisevdb.herokuapp.com"
+        link: "https://louisevdb84.github.io/portfolio"
     },
 
 
 
 ];
 
-const App = () => {    
-    return (
-        <div className="animated zoomInRight cards proj">    
-            <h1>My Projects</h1>            
-            <ProjectList projects={db}/>    
-        </div>     
+const App = () => {
+    return ( <
+        div className = "animated zoomInRight cards proj" >
+        <
+        h1 > My Projects < /h1>             <
+        ProjectList projects = {
+            db
+        }
+        />     < /
+        div >
     )
-}  
+}
 
 export default App;
