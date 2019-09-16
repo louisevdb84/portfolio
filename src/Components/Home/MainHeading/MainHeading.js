@@ -18,7 +18,7 @@ const MainHeading = () => {
                     <h3 className="animated bounce">Full Stack Developer</h3>
                     <a className = "icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/louise-van-den-berg-016179114/"><i class="fa fa-linkedin-square"></i></a>
                     <a className = "icon" target="_blank"  rel="noopener noreferrer" href="https://github.com/louisevdb84"><i class="fa fa-github"></i></a>                    
-                    <p>C#, ASP.NET Core/MVC, Angular/React.js and Relational Databases</p>                    
+                    <p>React.js, Angular, JavaScript, HTML, CSS, C#, ASP.NET Core, ASP.NET MVC and Relational Databases </p>                    
                     <UISrefActive className="active"><UISref to={'projects'}>
                     <button className="btn btn-primary btn-large grow">View Profile</button>
                 </UISref></UISrefActive>

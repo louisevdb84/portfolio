@@ -4,7 +4,7 @@ import './Project.css';
 const Project = ({description, name, image, tools, link, date}) => {    
     return (
         <div>            
-            <a className="cardLink" href={link} target = "_blank">  
+            <div >  
                 <article className="grid-item content-box">
                     <div className="inner">
                         <img className="content-box-thumb" src={image} alt="tech" />
@@ -24,7 +24,7 @@ const Project = ({description, name, image, tools, link, date}) => {
                         <a className="readmore-link" target = "_blank" href={link}>View Project</a>
                     </div>
                 </article>
-            </a>
+            </div>
         </div>    
     );
 }

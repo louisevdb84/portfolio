@@ -2,14 +2,28 @@ import React from 'react';
 import './Projects.css';
 import ProjectList from '../Components/Projects/ProjectList';
 
-const db = [{
-        name: "NASA API App",
-        description: "Very basic app using NASA API to explore React Redux",
-        date: "August 2019",
-        tools: "React.js, Redux, Redux-Thunk, Redux-logger, Tachyons",
-        image: "https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1033&q=80",
-        link: "https://louisevdb84.github.io/nasa/"
+
+const featuredDb = [
+    {
+     name: "Landing Page",
+         description: "This is a template for a landing page",
+         date: "September 2019",
+         tools: "JavaScript, CSS and HTML",
+         image: "https://images.unsplash.com/photo-1518540140738-791b6a9d430b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=955&q=80",
+         link: "https://louisevdb84.github.io/landingpage/"
     },
+     {
+         name: "Movie and TV Show Tracker",
+         description: "This app uses MovieDb API to display movies and tv shows. It keeps track of the watchlist and watched movies / TV shows",
+         date: "April 2018",
+         tools: "React.js, CSS, Node.js, Express Framework, UI-Router/React, Tachyons, MoviedbAPI, PostgreSQL",
+         image: "https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de2f768321958e878703c793724d87fa&auto=format&fit=crop&w=1950&q=80",
+         link: "https://louisevdb84.github.io/movie-tvshow-tracker/"
+     },
+
+]
+
+const db = [
     {
         name: "Shopping List",
         description: "This app keeps track of your shopping list. ",
@@ -18,15 +32,7 @@ const db = [{
         image: "https://images.unsplash.com/photo-1516355082092-7c054bd0536a?ixlib=rb-0.3.5&s=810144aaa21c9deb158b1249a50be591&auto=format&fit=crop&w=1350&q=80",
         link: "https://louisevdb84.github.io/shopping-list/"
     },
-    {
-        name: "Movie and TV Show Tracker",
-        description: "This app uses MovieDb API to display movies and tv shows. It keeps track of the watchlist and watched movies / TV shows",
-        date: "April 2018",
-        tools: "React.js, CSS, Node.js, Express Framework, UI-Router/React, Tachyons, MoviedbAPI, PostgreSQL",
-        image: "https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de2f768321958e878703c793724d87fa&auto=format&fit=crop&w=1950&q=80",
-        link: "https://louisevdb84.github.io/movie-tvshow-tracker/"
-    },
-
+   
     {
         name: "Speech to Text Journal",
         description: "This application uses speech recognition to convert your words into a journal entry. This app is also a coding challenge winner (Udemy Zero to Mastery)",
@@ -68,6 +74,14 @@ const db = [{
         image: "https://images.unsplash.com/photo-1501159771943-cc9027db4d8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05daa85f6d47b2bac2ccfcaa9c55b2b9&auto=format&fit=crop&w=1050&q=80",
         link: "https://louisevdb84.github.io/portfolio"
     },
+    {
+        name: "NASA API App",
+        description: "Very basic app using NASA API to explore React Redux",
+        date: "August 2019",
+        tools: "React.js, Redux, Redux-Thunk, Redux-logger, Tachyons",
+        image: "https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1033&q=80",
+        link: "https://louisevdb84.github.io/nasa/"
+    }
 
 
 
@@ -77,10 +91,11 @@ const App = () => {
     return (
         <div className="animated zoomInRight cards proj" >
             <h1> My Projects </h1>
-            <ProjectList projects = {
-            db
-        }
-            />
+            <h3> Featured Projects </h3>
+            <ProjectList projects={featuredDb} />
+            
+            <h3> Projects </h3>
+            <ProjectList projects={db}/> 
         </div>
     )
 }
