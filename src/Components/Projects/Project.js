@@ -4,16 +4,20 @@ import './Project.css';
 const Project = ({description, name, image, tools, link, date}) => {    
     return (
         <div>            
+            
+            
+        
             <div >  
-                <article className="grid-item content-box">
+                <article className="grid-item content-box">                    
                     <div className="inner">
+                        <h1 className = "content-box-header" > {
+                                name
+                        } </h1>
+                        <p className = "date-completed" > Completed: {
+                                " " + date
+                            } </p>    
                         <img className="content-box-thumb" src={image} alt="tech" />
-                    <h1 className="content-box-header">
-                    { name }
-                        </h1>
-                        <p className="date-completed">Completed:
-                        {" " + date }
-                            </p>    
+                    <br></br>
                     <p className="content-box-blurb">
                     {description }
                         </p>
