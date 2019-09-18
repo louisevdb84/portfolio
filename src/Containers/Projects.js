@@ -73,9 +73,10 @@ const App = () => {
     return (
         <div className="animated zoomInRight cards proj" >
             <h1> My Projects </h1>
+            <hr></hr>
             <h3> Featured Projects </h3>
             <ProjectList projects={featuredDb} />
-            
+            <hr></hr>
             <h3> Projects </h3>
             <ProjectList projects={db}/> 
         </div>
