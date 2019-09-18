@@ -77,7 +77,7 @@ const App = () => {
             <h3> Featured Projects </h3>
             <ProjectList projects={featuredDb} />
             <hr></hr>
-            <h3> Projects </h3>
+            <h3>Other Projects </h3>
             <ProjectList projects={db}/> 
         </div>
     )
