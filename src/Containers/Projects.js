@@ -7,6 +7,8 @@ import shoppinglist from './shoppinglist.PNG';
 import portfolio from './portfolio.PNG';
 import journal from './journal.PNG';
 import nasa from './nasa.PNG';
+import accounting from './Accounting.PNG';
+import timesheet from './timesheet.PNG';
 
 const featuredDb = [
 
@@ -17,6 +19,22 @@ const featuredDb = [
         tools: "React.js, CSS, Node.js, Express Framework, UI-Router/React, Tachyons, MoviedbAPI, PostgreSQL",
         image: moviedb,
         link: "https://louisevdb84.github.io/movie-tvshow-tracker/"
+    },
+    {
+        name: "Accounting Application",
+        description: "Accounting application to record all transactions. Also used to set a budget.",
+        date: "February 2019",
+        tools: ".NET Core, Angular, Entitiy Framework, SQL Server",
+        image: accounting,
+        link: "https://accountingapp-api.azurewebsites.net/"
+    },
+    {
+        name: "Goal Achiever",
+        description: "Timesheet application to record time spend on activities and also to set goals.",
+        date: "2017",
+        tools: "ASP.NET Framework, SQL Server, Entity Framework",
+        image: timesheet,
+        link: "https://goalachiever.azurewebsites.net/Timesheet"
     },
     {
         name: "Landing Page",
