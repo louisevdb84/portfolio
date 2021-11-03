@@ -1,13 +1,15 @@
 {
   "main.css": "static/css/main.0bc9f5a5.css",
   "main.css.map": "static/css/main.0bc9f5a5.css.map",
-  "main.js": "static/js/main.8fd0faaa.js",
-  "main.js.map": "static/js/main.8fd0faaa.js.map",
+  "main.js": "static/js/main.71da39f1.js",
+  "main.js.map": "static/js/main.71da39f1.js.map",
+  "static\\media\\Accounting.PNG": "static/media/Accounting.27fb1b25.PNG",
   "static\\media\\Resume.pdf": "static/media/Resume.cf537cc4.pdf",
   "static\\media\\journal.PNG": "static/media/journal.80ffe874.PNG",
   "static\\media\\landingpage.PNG": "static/media/landingpage.8c85a419.PNG",
   "static\\media\\moviedb.PNG": "static/media/moviedb.988c54da.PNG",
   "static\\media\\nasa.PNG": "static/media/nasa.243cf0e0.PNG",
   "static\\media\\portfolio.PNG": "static/media/portfolio.86429101.PNG",
-  "static\\media\\shoppinglist.PNG": "static/media/shoppinglist.c8954e7b.PNG"
+  "static\\media\\shoppinglist.PNG": "static/media/shoppinglist.c8954e7b.PNG",
+  "static\\media\\timesheet.PNG": "static/media/timesheet.9780d2c2.PNG"
 }
